@@ -1,0 +1,36 @@
+{
+  "students": [
+    {
+      "name": "StudentA",
+      "university": "UniversityA"
+    },
+    {
+      "name": "StudentB",
+      "university": "UniversityA"
+    },
+    {
+      "name": "StudentC",
+      "university": "UniversityA"
+    },
+    {
+      "name": "StudentD",
+      "university": "UniversityA"
+    },
+    {
+      "name": "StudentE",
+      "university": "UniversityA"
+    },
+    {
+      "name": "StudentF",
+      "university": "UniversityA"
+    },
+    {
+      "name": "StudentG",
+      "university": "UniversityB"
+    },
+    {
+      "name": "StudentH",
+      "university": "UniversityB"
+    }
+  ]
+}

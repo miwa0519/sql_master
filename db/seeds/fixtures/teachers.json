@@ -1,0 +1,20 @@
+{
+  "teachers": [
+    {
+      "name": "TeacherA",
+      "university": "UniversityA"
+    },
+    {
+      "name": "TeacherB",
+      "university": "UniversityA"
+    },
+    {
+      "name": "TeacherC",
+      "university": "UniversityA"
+    },
+    {
+      "name": "TeacherD",
+      "university": "UniversityA"
+    }
+  ]
+}

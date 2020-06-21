@@ -1,0 +1,46 @@
+{
+  "subjects": [
+    {
+      "name": "基礎英語",
+      "credit": 2,
+      "required": true,
+      "teacher": "TeacherA"
+    },
+    {
+      "name": "応用英語",
+      "credit": 2,
+      "required": false,
+      "teacher": "TeacherA"
+    },
+    {
+      "name": "基礎スポーツ",
+      "credit": 2,
+      "required": true,
+      "teacher": "TeacherB"
+    },
+    {
+      "name": "スポーツ学",
+      "credit": 1,
+      "required": false,
+      "teacher": "TeacherB"
+    },
+    {
+      "name": "経営学入門",
+      "credit": 2,
+      "required": true,
+      "teacher": "TeacherC"
+    },
+    {
+      "name": "マーケティング論",
+      "credit": 2,
+      "required": false,
+      "teacher": "TeacherC"
+    },
+    {
+      "name": "経済学基礎",
+      "credit": 2,
+      "required": true,
+      "teacher": "TeacherD"
+    }
+  ]
+}

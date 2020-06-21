@@ -1,0 +1,163 @@
+{
+  "course_registrations": [
+    {
+      "name": "2019StudentA",
+      "year": "2019",
+      "grade": 1,
+      "student_name": "StudentA",
+      "subjects": [
+        {
+          "name": "基礎英語"
+        },
+        {
+          "name": "基礎スポーツ"
+        },
+        {
+          "name": "経済学基礎"
+        }
+      ]
+    },
+    {
+      "name": "2020StudentA",
+      "year": "2020",
+      "grade": 2,
+      "student_name": "StudentA",
+      "subjects": [
+        {
+          "name": "応用英語"
+        },
+        {
+          "name": "スポーツ学"
+        },
+        {
+          "name": "マーケティング論"
+        },
+        {
+          "name": "経営学入門"
+        }
+      ]
+    },
+    {
+      "name": "2018StudentB",
+      "year": "2018",
+      "grade": 1,
+      "student_name": "StudentB",
+      "subjects": [
+        {
+          "name": "基礎英語"
+        },
+        {
+          "name": "基礎スポーツ"
+        },
+        {
+          "name": "経済学基礎"
+        },
+        {
+          "name": "経営学入門"
+        }
+      ]
+    },
+    {
+      "name": "2019StudentB",
+      "year": "2019",
+      "grade": 2,
+      "student_name": "StudentB",
+      "subjects": [
+        {
+          "name": "応用英語"
+        },
+        {
+          "name": "マーケティング論"
+        }
+      ]
+    },
+    {
+      "name": "2020StudentB",
+      "year": "2020",
+      "grade": 2,
+      "student_name": "StudentB",
+      "subjects": [
+        {
+          "name": "スポーツ学"
+        }
+      ]
+    },
+    {
+      "name": "2020StudentC",
+      "year": "2020",
+      "grade": 1,
+      "student_name": "StudentC",
+      "subjects": [
+        {
+          "name": "基礎英語"
+        },
+        {
+          "name": "基礎スポーツ"
+        },
+        {
+          "name": "経済学基礎"
+        },
+        {
+          "name": "経営学入門"
+        }
+      ]
+    },
+    {
+      "name": "2020StudentD",
+      "year": "2020",
+      "grade": 1,
+      "student_name": "StudentD",
+      "subjects": [
+        {
+          "name": "基礎英語"
+        },
+        {
+          "name": "基礎スポーツ"
+        },
+        {
+          "name": "経営学入門"
+        },
+        {
+          "name": "スポーツ学"
+        }
+      ]
+    },
+    {
+      "name": "2020StudentE",
+      "year": "2020",
+      "grade": 2,
+      "student_name": "StudentE",
+      "subjects": [
+        {
+          "name": "応用英語"
+        },
+        {
+          "name": "スポーツ学"
+        },
+        {
+          "name": "マーケティング論"
+        },
+        {
+          "name": "経営学入門"
+        }
+      ]
+    },
+    {
+      "name": "2020StudentF",
+      "year": "2020",
+      "grade": 1,
+      "student_name": "StudentF",
+      "subjects": [
+        {
+          "name": "基礎英語"
+        },
+        {
+          "name": "基礎スポーツ"
+        },
+        {
+          "name": "経営学入門"
+        }
+      ]
+    }
+  ]
+}

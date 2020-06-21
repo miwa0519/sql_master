@@ -1,0 +1,10 @@
+{
+  "universities": [
+    {
+      "name": "UniversityA"
+    },
+    {
+      "name": "UniversityB"
+    }
+  ]
+}
