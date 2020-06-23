@@ -49,6 +49,7 @@ ActiveRecord::Schema.define(version: 2020_06_20_130501) do
     t.bigint "teacher_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["subject_id", "teacher_id"], name: "index_subject_teachers_on_uniqueness", unique: true
     t.index ["subject_id"], name: "index_subject_teachers_on_subject_id"
     t.index ["teacher_id"], name: "index_subject_teachers_on_teacher_id"
   end
@@ -79,6 +80,7 @@ ActiveRecord::Schema.define(version: 2020_06_20_130501) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["student_id"], name: "index_university_students_on_student_id"
+    t.index ["university_id", "student_id"], name: "index_university_students_on_uniqueness", unique: true
     t.index ["university_id"], name: "index_university_students_on_university_id"
   end
 

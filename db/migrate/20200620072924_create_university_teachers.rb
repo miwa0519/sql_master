@@ -7,6 +7,4 @@ class CreateUniversityTeachers < ActiveRecord::Migration[6.0]
       t.timestamps
     end
   end
-
-  add_index :university_teachers, %i[university_id teacher_id], unique: true, name: 'index_university_teachers_on_uniqueness'
 end
