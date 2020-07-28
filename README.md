@@ -19,4 +19,4 @@
 7. [こちら](https://qiita.com/niki_cat_0714/items/d137db55c2f73ea65791)の記事を参考に、`MySQL`と`DBeaver`を接続する
 8. `DBeaver` との接続後、`students` テーブルにレコードが 6 件登録されていることを確認できれば OK
 
-※DBeaber との接続時、MySQL の `root` パスワードを要求されると思います。パスワードは `docker-compose.yml`の`MYSQL_ROOT_PASSWORD` に指定されている値を入力してください。
+※DBeaber との接続時、MySQL の `root` パスワードを要求されると思います。パスワードは `docker-compose.yml`の`MYSQL_ROOT_PASSWORD` に指定した値を入力してください。（未設定の場合は `password` が設定されます。）
