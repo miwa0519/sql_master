@@ -37,19 +37,42 @@ ActiveRecord::Base.transaction do
     )
   end
 
+  # Units
+  data = JSON.parse(File.read(Rails.root.join(fixtures, 'units.json')))
+  data['units'].each do |unit|
+    subject = Subject.find_by(name: unit['subject_name'])
+    Unit.find_or_create_by!(
+      name: "第#{unit['name']}回",
+      subject: subject,
+      parent_unit: Unit.find_by(name: "第#{unit['name'].to_i - 1}回", subject: subject)
+    )
+  end
+
   #  CourseRegistration
   data = JSON.parse(File.read(Rails.root.join(fixtures, 'course_registrations.json')))
   data['course_registrations'].each do |course_registration|
-    subjects = course_registration['subjects'].map do |subject|
-      Subject.find_by(name: subject['name'])
-    end
+    course_registration['subjects'].each do |subject_attributes|
+      course_registration = CourseRegistration.find_or_create_by!(
+        name: course_registration['name'],
+        year: course_registration['year'],
+        grade: course_registration['grade'],
+        student: Student.find_by(name: course_registration['student_name']),
+      )
 
-    CourseRegistration.find_or_create_by!(
-      name: course_registration['name'],
-      year: course_registration['year'],
-      grade: course_registration['grade'],
-      student: Student.find_by(name: course_registration['student_name']),
-      subjects: subjects
-    )
+      subject = Subject.find_by(name: subject_attributes['name'])
+      subject_course_registration = SubjectCourseRegistration.find_or_create_by!(
+        course_registration: course_registration,
+        subject: subject
+      )
+
+      subject_attributes['subject_course_registration_units'].each do |subject_course_registration_unit|
+        unit_name = subject_course_registration_unit['unit_name']
+        SubjectCourseRegistrationUnit.find_or_create_by!(
+          subject_course_registration: subject_course_registration,
+          unit: Unit.find_by(subject: subject, name: unit_name),
+          attendance: subject_course_registration_unit['attendance']
+        )
+      end
+    end
   end
 end

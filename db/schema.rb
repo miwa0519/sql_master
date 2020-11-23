@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_20_130501) do
+ActiveRecord::Schema.define(version: 2020_11_23_074423) do
 
   create_table "course_registrations", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name"
@@ -33,6 +33,16 @@ ActiveRecord::Schema.define(version: 2020_06_20_130501) do
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "subject_course_registration_units", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.bigint "subject_course_registration_id", null: false
+    t.bigint "unit_id", null: false
+    t.boolean "attendance"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["subject_course_registration_id"], name: "index_for_subject_course_registration"
+    t.index ["unit_id"], name: "index_subject_course_registration_units_on_unit_id"
   end
 
   create_table "subject_course_registrations", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
@@ -68,6 +78,16 @@ ActiveRecord::Schema.define(version: 2020_06_20_130501) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "units", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.bigint "subject_id", null: false
+    t.bigint "parent_unit_id"
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["parent_unit_id"], name: "index_units_on_parent_unit_id"
+    t.index ["subject_id"], name: "index_units_on_subject_id"
+  end
+
   create_table "universities", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
@@ -95,8 +115,12 @@ ActiveRecord::Schema.define(version: 2020_06_20_130501) do
 
   add_foreign_key "student_course_registrations", "course_registrations"
   add_foreign_key "student_course_registrations", "students"
+  add_foreign_key "subject_course_registration_units", "subject_course_registrations"
+  add_foreign_key "subject_course_registration_units", "units"
   add_foreign_key "subject_teachers", "subjects"
   add_foreign_key "subject_teachers", "teachers"
+  add_foreign_key "units", "subjects"
+  add_foreign_key "units", "units", column: "parent_unit_id"
   add_foreign_key "university_students", "students"
   add_foreign_key "university_students", "universities"
   add_foreign_key "university_teachers", "teachers"

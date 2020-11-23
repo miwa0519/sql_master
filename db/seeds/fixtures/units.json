@@ -1,0 +1,324 @@
+{
+  "units": [
+    {
+      "subject_name": "基礎英語",
+      "name": "1"
+    },
+    {
+      "subject_name": "基礎英語",
+      "name": "2"
+    },
+    {
+      "subject_name": "基礎英語",
+      "name": "3"
+    },
+    {
+      "subject_name": "基礎英語",
+      "name": "4"
+    },
+    {
+      "subject_name": "基礎英語",
+      "name": "5"
+    },
+    {
+      "subject_name": "基礎英語",
+      "name": "6"
+    },
+    {
+      "subject_name": "基礎英語",
+      "name": "7"
+    },
+    {
+      "subject_name": "基礎英語",
+      "name": "8"
+    },
+    {
+      "subject_name": "基礎英語",
+      "name": "9"
+    },
+    {
+      "subject_name": "基礎英語",
+      "name": "10"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "1"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "2"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "3"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "4"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "5"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "6"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "7"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "8"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "9"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "10"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "1"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "2"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "3"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "4"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "5"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "6"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "7"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "8"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "9"
+    },
+    {
+      "subject_name": "応用英語",
+      "name": "10"
+    },
+    {
+      "subject_name": "基礎スポーツ",
+      "name": "1"
+    },
+    {
+      "subject_name": "基礎スポーツ",
+      "name": "2"
+    },
+    {
+      "subject_name": "基礎スポーツ",
+      "name": "3"
+    },
+    {
+      "subject_name": "基礎スポーツ",
+      "name": "4"
+    },
+    {
+      "subject_name": "基礎スポーツ",
+      "name": "5"
+    },
+    {
+      "subject_name": "基礎スポーツ",
+      "name": "6"
+    },
+    {
+      "subject_name": "基礎スポーツ",
+      "name": "7"
+    },
+    {
+      "subject_name": "基礎スポーツ",
+      "name": "8"
+    },
+    {
+      "subject_name": "基礎スポーツ",
+      "name": "9"
+    },
+    {
+      "subject_name": "基礎スポーツ",
+      "name": "10"
+    },
+    {
+      "subject_name": "スポーツ学",
+      "name": "1"
+    },
+    {
+      "subject_name": "スポーツ学",
+      "name": "2"
+    },
+    {
+      "subject_name": "スポーツ学",
+      "name": "3"
+    },
+    {
+      "subject_name": "スポーツ学",
+      "name": "4"
+    },
+    {
+      "subject_name": "スポーツ学",
+      "name": "5"
+    },
+    {
+      "subject_name": "スポーツ学",
+      "name": "6"
+    },
+    {
+      "subject_name": "スポーツ学",
+      "name": "7"
+    },
+    {
+      "subject_name": "スポーツ学",
+      "name": "8"
+    },
+    {
+      "subject_name": "スポーツ学",
+      "name": "9"
+    },
+    {
+      "subject_name": "スポーツ学",
+      "name": "10"
+    },
+    {
+      "subject_name": "経営学入門",
+      "name": "1"
+    },
+    {
+      "subject_name": "経営学入門",
+      "name": "2"
+    },
+    {
+      "subject_name": "経営学入門",
+      "name": "3"
+    },
+    {
+      "subject_name": "経営学入門",
+      "name": "4"
+    },
+    {
+      "subject_name": "経営学入門",
+      "name": "5"
+    },
+    {
+      "subject_name": "経営学入門",
+      "name": "6"
+    },
+    {
+      "subject_name": "経営学入門",
+      "name": "7"
+    },
+    {
+      "subject_name": "経営学入門",
+      "name": "8"
+    },
+    {
+      "subject_name": "経営学入門",
+      "name": "9"
+    },
+    {
+      "subject_name": "経営学入門",
+      "name": "10"
+    },
+    {
+      "subject_name": "マーケティング論",
+      "name": "1"
+    },
+    {
+      "subject_name": "マーケティング論",
+      "name": "2"
+    },
+    {
+      "subject_name": "マーケティング論",
+      "name": "3"
+    },
+    {
+      "subject_name": "マーケティング論",
+      "name": "4"
+    },
+    {
+      "subject_name": "マーケティング論",
+      "name": "5"
+    },
+    {
+      "subject_name": "マーケティング論",
+      "name": "6"
+    },
+    {
+      "subject_name": "マーケティング論",
+      "name": "7"
+    },
+    {
+      "subject_name": "マーケティング論",
+      "name": "8"
+    },
+    {
+      "subject_name": "マーケティング論",
+      "name": "9"
+    },
+    {
+      "subject_name": "マーケティング論",
+      "name": "10"
+    },
+    {
+      "subject_name": "経済学基礎",
+      "name": "1"
+    },
+    {
+      "subject_name": "経済学基礎",
+      "name": "2"
+    },
+    {
+      "subject_name": "経済学基礎",
+      "name": "3"
+    },
+    {
+      "subject_name": "経済学基礎",
+      "name": "4"
+    },
+    {
+      "subject_name": "経済学基礎",
+      "name": "5"
+    },
+    {
+      "subject_name": "経済学基礎",
+      "name": "6"
+    },
+    {
+      "subject_name": "経済学基礎",
+      "name": "7"
+    },
+    {
+      "subject_name": "経済学基礎",
+      "name": "8"
+    },
+    {
+      "subject_name": "経済学基礎",
+      "name": "9"
+    },
+    {
+      "subject_name": "経済学基礎",
+      "name": "10"
+    }
+  ]
+}

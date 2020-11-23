@@ -7,13 +7,139 @@
       "student_name": "StudentA",
       "subjects": [
         {
-          "name": "基礎英語"
+          "name": "基礎英語",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "基礎スポーツ"
+          "name": "基礎スポーツ",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "経済学基礎"
+          "name": "経済学基礎",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         }
       ]
     },
@@ -24,16 +150,184 @@
       "student_name": "StudentA",
       "subjects": [
         {
-          "name": "応用英語"
+          "name": "応用英語",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": ""
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": ""
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": ""
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": ""
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": ""
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": ""
+            }
+          ]
         },
         {
-          "name": "スポーツ学"
+          "name": "スポーツ学",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "マーケティング論"
+          "name": "マーケティング論",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "経営学入門"
+          "name": "経営学入門",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         }
       ]
     },
@@ -44,16 +338,184 @@
       "student_name": "StudentB",
       "subjects": [
         {
-          "name": "基礎英語"
+          "name": "基礎英語",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "基礎スポーツ"
+          "name": "基礎スポーツ",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "経済学基礎"
+          "name": "経済学基礎",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "経営学入門"
+          "name": "経営学入門",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         }
       ]
     },
@@ -64,10 +526,94 @@
       "student_name": "StudentB",
       "subjects": [
         {
-          "name": "応用英語"
+          "name": "応用英語",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "マーケティング論"
+          "name": "マーケティング論",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         }
       ]
     },
@@ -78,7 +624,49 @@
       "student_name": "StudentB",
       "subjects": [
         {
-          "name": "スポーツ学"
+          "name": "スポーツ学",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         }
       ]
     },
@@ -89,16 +677,184 @@
       "student_name": "StudentC",
       "subjects": [
         {
-          "name": "基礎英語"
+          "name": "基礎英語",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "基礎スポーツ"
+          "name": "基礎スポーツ",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": false
+            }
+          ]
         },
         {
-          "name": "経済学基礎"
+          "name": "経済学基礎",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "経営学入門"
+          "name": "経営学入門",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         }
       ]
     },
@@ -109,16 +865,184 @@
       "student_name": "StudentD",
       "subjects": [
         {
-          "name": "基礎英語"
+          "name": "基礎英語",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "基礎スポーツ"
+          "name": "基礎スポーツ",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": false
+            }
+          ]
         },
         {
-          "name": "経営学入門"
+          "name": "経営学入門",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "スポーツ学"
+          "name": "スポーツ学",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         }
       ]
     },
@@ -129,16 +1053,184 @@
       "student_name": "StudentE",
       "subjects": [
         {
-          "name": "応用英語"
+          "name": "応用英語",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": ""
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": ""
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": ""
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": ""
+            }
+          ]
         },
         {
-          "name": "スポーツ学"
+          "name": "スポーツ学",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "マーケティング論"
+          "name": "マーケティング論",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "経営学入門"
+          "name": "経営学入門",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         }
       ]
     },
@@ -149,13 +1241,139 @@
       "student_name": "StudentF",
       "subjects": [
         {
-          "name": "基礎英語"
+          "name": "基礎英語",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": false
+            }
+          ]
         },
         {
-          "name": "基礎スポーツ"
+          "name": "基礎スポーツ",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": false
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         },
         {
-          "name": "経営学入門"
+          "name": "経営学入門",
+          "subject_course_registration_units": [
+            {
+              "unit_name": "第1回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第2回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第3回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第4回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第5回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第6回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第7回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第8回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第9回",
+              "attendance": true
+            },
+            {
+              "unit_name": "第10回",
+              "attendance": true
+            }
+          ]
         }
       ]
     }
